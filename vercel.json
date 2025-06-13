@@ -12,6 +12,22 @@
             "dest": "/static/$1"
         },
         {
+            "src": "/admin",
+            "dest": "/app.py"
+        },
+        {
+            "src": "/success",
+            "dest": "/app.py"
+        },
+        {
+            "src": "/confirm",
+            "dest": "/app.py"
+        },
+        {
+            "src": "/",
+            "dest": "/app.py"
+        },
+        {
             "src": "/(.*)",
             "dest": "/app.py"
         }
